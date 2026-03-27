@@ -36,11 +36,13 @@ com o objetivo de documentar os requisitos funcionais e não funcionais da aba E
  projeto segue o padrão Page Object Model, com separação de cenários BDD, implementação de steps, utilitários auxiliares, evidências de falha e relatórios de execução.
 
 Para configurar o ambiente, crie um ambiente virtual com o comando:
-bash
+```bash
 python -m venv venv
+```
 Ative o ambiente virtual:
-bash
+```bash
 venv\Scripts\activate
+```
 As dependências estão definidas no arquivo requirements.txt:
 
 **pytest** → Framework para execução de testes.  
@@ -54,20 +56,25 @@ As dependências estão definidas no arquivo requirements.txt:
 **playwright** → Automação de navegadores para testes end-to-end.
 
 Instale as dependências:
-bash
+```bash
 pip install -r requirements.txt
+```
 Instale os navegadores do Playwright:
-bash
+```bash
 playwright install
+```
 Para executar os testes:
-bash
+```bash
 pytest
+```
 Para executar exibindo o navegador e logs detalhados:
-bash
+```bash
 pytest --headed
+```
 Para abrir o relatório interativo:
-bash
+```bash
 allure serve allure-results
+```
 
 #
 
