@@ -94,7 +94,3 @@ O workflow está definido no arquivo: .github/workflows/CI.yml
 
 
 Desenvolvido por Danilo Luz.
-
-Charles Leclerc
-
-testesabonete
